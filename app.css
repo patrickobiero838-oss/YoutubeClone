@@ -236,7 +236,13 @@ header {
 
 /* Video Card */
 .video-card {
+
   cursor: pointer;
+}
+
+.video-card:hover .thumbnail {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
 }
 
 .thumbnail {
